@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import consentReducer from '../features/consent/consentsSlice'
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    consents: consentReducer,
   },
 });
